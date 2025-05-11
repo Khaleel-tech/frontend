@@ -10,7 +10,7 @@ const nextConfig = {
   // proxy for api requests
   async rewrites() {
     // Use environment variable or default to local development
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'backend-production-a3e4.up.railway.app';
     
     return [
       {
